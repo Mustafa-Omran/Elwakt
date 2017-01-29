@@ -1,0 +1,25 @@
+body {
+padding:0px;
+margin:0px;
+width:300px;
+height:200px;
+font-family: myFont;
+}
+h1,h2 {
+display:table-row;
+vertical-align:middle;
+text-align:center;
+}
+h2 {
+background-color:#777;
+}
+.unselectable {
+-webkit-user-select:none;
+cursor:default;
+}
+
+@font-face
+{
+    font-family: myFont;
+    src:url(Dosis-Regular.ttf);
+}
